@@ -430,15 +430,4 @@ im.save('tmp.jpg')
 
 pred_caption = generate_caption('tmp.jpg')
 print('Predicted Caption:', pred_caption)
-print()
-im
-
-# caption_model.save_weights('image_captioning_transformer_weights.h5')
-
-# if not load_weights:
-#     from google.colab import drive
-#     drive.mount('/content/drive')
-
-# with open('/content/drive/MyDrive/Saved Models/ImageCaptioning/image_captioning_transformer_weights.h5', 'wb') as f:
-#     f.write(open('image_captioning_transformer_weights.h5', 'rb').read())
-
+print(im)
